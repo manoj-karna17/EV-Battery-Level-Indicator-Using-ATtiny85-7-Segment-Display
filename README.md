@@ -28,11 +28,15 @@ KiCad (Schematic, PCB, Gerber, BOM)
 Pin Connections:
 -----------------
 ATtiny85 → 74HC595
-
-ATtiny85 Pin	          Function	           74HC595 Pin
-PB1 (Pin 6)	           Data (MOSI)	        DS (Pin 14)
-PB2 (Pin 7)	           Clock (SCK)	        SH_CP (Pin 11)
-PB0 (Pin 5)	           Latch	              ST_CP (Pin 12)
+-----------------------------------------------------------------------
+ATtiny85 Pin	|         Function	    |       74HC595 Pin    |
+-----------------------------------------------------------------------
+PB1 (Pin 6)	|         Data (MOSI)	    |       DS (Pin 14)    |
+-----------------------------------------------------------------------
+PB2 (Pin 7)	|         Clock (SCK)	    |       SH_CP (Pin 11) |
+-----------------------------------------------------------------------
+PB0 (Pin 5)	|         Latch	    |       ST_CP (Pin 12) |
+-----------------------------------------------------------------------
 
 1. ATtiny85 PB3 (Pin 2) → Voltage divider output (Analog input).
 2. 74HC595 Q0-Q6 → 7-Segment Display segments (with resistors).
