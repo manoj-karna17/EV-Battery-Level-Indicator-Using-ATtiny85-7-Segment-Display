@@ -42,20 +42,20 @@ PB0 (Pin 5)	           Latch	              ST_CP (Pin 12)
 How it works:
 ----------------
 12Volts Battery
-     |
-     v
+      |
+      v
 Voltage Regulator (LM7805): Converts 12V to 5V
-     |
-     v
+      |
+      v
 Voltage Divider: Scales the battery voltage
-     |
-     v
+      |
+      v
 Micro controller (ATtiny85): Reads voltage and calculates battery level
-     |
-     v
+      |
+      v
 Shift register (74HC595): Send data to display
-     |
-     v
+      |
+      v
 7-Segment display: Shows battery level
 
 ---------------
