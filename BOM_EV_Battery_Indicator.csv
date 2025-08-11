@@ -1,0 +1,10 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+BT1,1,12V,,,,,~
+R1,1,10K,,,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+R2,1,3.3K,,,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+"R3,R4,R5,R6,R7,R8,R9,R10",8,220,,,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+R11,1,R,,,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,~
+U1,1,ATtiny85-20P,,,,Package_DIP:DIP-8_W7.62mm,http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf
+U2,1,LOGIC-74HC595N_DIP16_,,,,LOGIC-74HC595N_DIP16_:DIP16-2.54-20.32X5.84MM,
+U3,1,SC39-11GWA,,,,Display_7Segment:Sx39-1xxxxx,http://www.kingbrightusa.com/images/catalog/SPEC/sc39-11gwa.pdf
+U4,1,LM7805_TO220,,,,Package_TO_SOT_THT:TO-220-3_Vertical,https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF

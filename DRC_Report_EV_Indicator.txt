@@ -1,0 +1,10 @@
+** Drc report for EV_Battery_Level_Indicator.kicad_pcb **
+** Created on 2025-08-04T16:19:32+0530 **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
